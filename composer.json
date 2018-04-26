@@ -1,0 +1,28 @@
+{
+  "name": "twohill/silverstripe-phpstorm-graphql",
+  "description": "Helper to allow PHPStorm GraphQL lookups",
+  "keywords": [
+    "silverstripe",
+    "graphql",
+    "phpstorm"
+  ],
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/twohill/silverstripe-phpstorm-graphql",
+  "authors": [
+    {
+      "name": "Al Twohill",
+      "email": "al@twohill.nz"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/twohill/silverstripe-silverstripe-phpstorm-graphql/issues"
+  },
+  "require": {
+    "silverstripe/graphql": "3.x-dev"
+  },
+  "extra": {
+    "installer-name": "phpstorm-graphql"
+  }
+}

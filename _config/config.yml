@@ -1,0 +1,10 @@
+SilverStripe\GraphQL\Auth\Handler:
+  authenticators:
+    - class: Twohill\PhpStormGraphQL\PhpStormDevAuthenticator
+      priority: 100
+
+Twohill\PhpStormGraphQL\PhpStormDevAuthenticator:
+  allowed_ips:
+    - '127.0.0.1'
+  allowed_useragent: 'JS GraphQL'
+  allowed_environment: 'dev'
